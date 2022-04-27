@@ -116,6 +116,7 @@ a{
 }
 .aside img{
     transform: skew(-10deg);
+    
 }
 .contenedor_fotos{
     display: flex;
@@ -327,6 +328,7 @@ a{
     background:  linear-gradient( to bottom, transparent, #222);
     outline: none;
     border-bottom: 3px solid #5f9;
+    
 }
 .form textarea{
     min-height: 150px;
@@ -336,6 +338,7 @@ a{
     background-color: #094;
     border-bottom: none;
     padding: 12px;
+    transition: scale(8);
 } 
 
 
@@ -345,8 +348,9 @@ a{
  .redes{
    width: 100%;
    padding: 50px 0px;
-   background-color: rgb(41, 40, 40);}
-
+   background-image: linear-gradient(to top, black, rgb(226, 39, 39));
+}
+  
 
 .div__bloque{
    display: flex;
