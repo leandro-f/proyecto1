@@ -22,6 +22,7 @@ a{
     top: 0%;
     
 }
+   /*  LISTO PARA MERGEAR */
 .fondo{ 
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
     top: 0;
@@ -114,6 +115,7 @@ a{
     flex-wrap: wrap;
     grid-area: "aside";
 }
+ /*  LISTO PARA MERGEAR */
 .aside img{
     transform: skew(-10deg);
     
