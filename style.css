@@ -26,9 +26,9 @@ a{
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
 }
 .navbar-collapse{
-    justify-content: center;
-  
+    justify-content: center;  
 }
+
 /* .fondo{ 
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
     top: 0;
@@ -39,7 +39,7 @@ a{
     height: fit-content;
     width: 100%; */
     
-} 
+/* } */ 
 .barra {
     display: inline-block;
     width: fit-content;
@@ -57,8 +57,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     display: inline-block;
-
-
 }
 
 .logo-2{
@@ -68,7 +66,7 @@ a{
     position: relative;
     margin: 30px;
   
-}  */*/
+}
 
 
                       /* ESTILOS DE LETRAS */
