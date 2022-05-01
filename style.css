@@ -27,6 +27,12 @@ a{
 }
 .navbar-collapse{
     justify-content: center;  
+    
+}
+.nav-link{
+    font-size: 40px;
+    color: #094;
+   
 }
 
 /* .fondo{ 
@@ -163,7 +169,15 @@ a{
     font-size: 40px;
    
 }
-
+.bloque_cards{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgba(5, 159, 255, 0.379);
+}
 
 
 
