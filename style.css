@@ -22,7 +22,6 @@ a{
     top: 0%;
     
 }
-<<<<<<< HEAD
 .nav_booststrap{
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
     grid-area: nav_booststrap ;
@@ -39,10 +38,6 @@ a{
 }
 
 /* .fondo{ 
-=======
-   /*  LISTO PARA MERGEAR */
-.fondo{ 
->>>>>>> f10ea1b50df4dbab25ae9642cf3a105ffce2c5b5
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
     top: 0;
     text-align: center;  
