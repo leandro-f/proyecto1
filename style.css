@@ -14,9 +14,7 @@
     width: 100%;
    
 }
-.nav_bootsrap{
-    background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
-}
+
 
 a{
     text-decoration: none;
@@ -27,7 +25,7 @@ a{
 }
 .nav_booststrap{
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
-    grid-area: nav_booststrap ;
+    
 }
 .navbar-collapse{
     justify-content: center;  
@@ -205,22 +203,30 @@ a{
                    /* PAGINA DE SERVICIO */
 
 .seccion_principal img{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;    
-    
+     width: 400px;
+     height: 400px;
+     object-fit: cover;                      
 }
 
-.fondo1{
-    display: flex;
-    display: inline-block;
+ .fondo1{
+  
     flex-wrap: wrap; 
     width: 1310px;
-}
+} 
+
 .fondo1 img{
     align-items: center;
     width: 1310px;
  
+}
+@media only screen and (max-width: 768px) {
+    .fondo1 img {
+        background-color: #094;
+        height: 368px;
+        width: 768px;
+    }
+ 
+    
 }
 
 .seccion_principal{   
@@ -233,20 +239,20 @@ a{
     grid-template-rows:230px 230px 230px);   
 }
 
-.seccion_principal .seccion1{
+ .seccion1{
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
 
 }
-.seccion_principal .seccion2 {
+ .seccion2 {
     grid-column-start: 3;
     grid-column-end: 5;
     
     text-align: center;
     
 }
-.seccion_principal .seccion3{
+ .seccion3{
     grid-column-start: 1;
     grid-column-end: 3;
   
@@ -255,11 +261,11 @@ a{
     align-items:flex-start;
     justify-content: center;
 } 
-.seccion_principal .seccion4{
+ .seccion4{
     grid-column-start: 3;
     grid-column-end: 5;
 }
-.seccion_principal .seccion0{
+.seccion0{
     grid-column-start: 1;
     grid-column-end: 3;
     
@@ -272,7 +278,9 @@ a{
 
                 /* preguntas frecuentes */
 
-
+.accordion{
+    background-color: #094;
+}
 
                 /* PAGINA DE CONTACTO */
 .contacto{  
