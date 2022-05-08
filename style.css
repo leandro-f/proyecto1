@@ -25,7 +25,7 @@ a{
 }
 .nav_booststrap{
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
-    
+   
 }
 .navbar-collapse{
     justify-content: center;  
@@ -367,9 +367,13 @@ a{
     transition: scale(8);
     
 } 
+                        /* como llegar */
 
+ .contenedor_mapa{
+     display: flex;
+     flex-wrap: wrap;                        
+ }  
 
-                         /* footer */
 
 
  .redes{
