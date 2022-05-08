@@ -3,7 +3,26 @@
     padding: 0;
 }
 
-.header{
-    background-color: aqua;
-    color: $color-body;
+header{
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        top: 0%;
+        
+    }
+    .nav_booststrap{
+        background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
+    
+    }
+    .navbar-collapse{
+        justify-content: center;  
+        
+    }
+    .nav-link{
+        font-size: 30px;
+        color: rgb(5, 255, 118);   
+        border: solid 3px rgb(110, 110, 110);
+        margin: 20px;
+    }
 }

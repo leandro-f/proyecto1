@@ -2,6 +2,20 @@
   margin: 0;
   padding: 0; }
 
-.header {
-  background-color: aqua;
-  color: white; }
+header a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  top: 0%; }
+
+header .nav_booststrap {
+  background-image: linear-gradient(to bottom, black, #e22727); }
+
+header .navbar-collapse {
+  justify-content: center; }
+
+header .nav-link {
+  font-size: 30px;
+  color: #05ff76;
+  border: solid 3px #6e6e6e;
+  margin: 20px; }
