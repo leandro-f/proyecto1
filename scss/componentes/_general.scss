@@ -2,27 +2,117 @@
     margin: 0;
     padding: 0;
 }
-
-header{
-    a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-style: italic;
-        top: 0%;
-        
-    }
-    .nav_booststrap{
-        background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
-    
-    }
-    .navbar-collapse{
-        justify-content: center;  
-        
-    }
-    .nav-link{
-        font-size: 30px;
-        color: rgb(5, 255, 118);   
-        border: solid 3px rgb(110, 110, 110);
-        margin: 20px;
-    }
+                            /* NAV */
+.cuerpo{
+    position: relative;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    display: $d_felx;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100%;
+   
 }
+
+
+a{
+    text-decoration: $decoracion_ancors;
+    /* color: rgb(255, 255, 255);
+    font-style: italic; */
+    top: 0%;
+    
+}
+.nav_booststrap{
+    background-image: $color_footer_nav;
+   
+}
+.navbar-collapse{
+    justify-content: center;  
+    
+}
+.nav-link{
+    font-size: 30px;
+    color: rgb(5, 255, 118);   
+    border: solid 3px rgb(110, 110, 110);
+    margin: 20px;
+}
+
+.barra {
+    display: inline-block;
+    width: fit-content;
+    margin: auto;
+    display: $d_felx;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+.lista li{  
+    margin: 30px;  
+    border: solid 3px rgba(255, 247, 0, 0.501);
+    padding: 5px;  
+    display: $d_felx;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.logo-2{
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+    position: relative;
+    margin: 30px; 
+}
+/* 
+                                FOOTER */
+.redes{
+    width: 100%;
+    padding: 50px 0px;  
+    background-image: $color_footer_nav;
+ 
+ }
+   
+ 
+ .div__bloque{
+    display: $d_felx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;  
+ }
+ 
+ .div__subbloque h2{
+    margin-bottom: 30px;
+    color: #f63535;
+    display: $d_felx;
+    flex-wrap: wrap;}
+    
+    
+ 
+ .prueba{
+    margin-top: 30px;
+    color: #7a7a7a;
+    font-size: 20px;
+    display: $d_felx;
+    flex-wrap: wrap;}
+ 
+ .div__subbloque a:hover{
+    opacity: 0.8;}
+    
+ 
+ 
+ .seccion{
+    width: 100%;
+    padding: 50px 0px;
+    display: $d_felx;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;  
+    position: relative;}
+ 
+ 
+ .seccion img { 
+    display: $d_felx;
+    flex-wrap: wrap;
+   }

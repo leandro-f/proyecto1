@@ -38,17 +38,6 @@ a{
     margin: 20px;
 }
 
-/* .fondo{ 
-    background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));
-    top: 0;
-    text-align: center;  
-    display: inline-block;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-    width: 100%; */
-    
-/* } */ 
 .barra {
     display: inline-block;
     width: fit-content;
@@ -375,7 +364,7 @@ a{
  }  
 
 
-
+                        /* footer */
  .redes{
    width: 100%;
    padding: 50px 0px;  
@@ -426,5 +415,4 @@ a{
 .seccion img { 
    display: flex;
    flex-wrap: wrap;
-   display: flex;
-   flex-wrap: wrap;}
+  }
