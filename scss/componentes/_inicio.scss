@@ -1,0 +1,94 @@
+.contenedor{
+    width: 90%; 
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "header header"
+                        "contenido aside";
+    
+}
+.header{
+    padding: 20px;
+    border-radius: 4px;
+    grid-area: header;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    grid-area: "contenido";
+    
+}
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: "aside";
+}
+ /*  LISTO PARA MERGEAR */
+.aside img{
+    transform: skew(-10deg);   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px){
+    .aside img{
+        display: none;
+    }
+    .estilos1{
+        font-size: 40px;
+    
+    }   
+}
+
+.contenedor_fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.cardsfotos__texto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cardsfotos img{
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    
+}
+.garantias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.garantias_sub img{
+    width: 200px;
+}
+
+.garantias_texto{
+    font-size: 40px;
+   
+}
+.bloque_cards{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgba(245, 0, 0, 0.406);
+}

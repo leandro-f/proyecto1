@@ -1,0 +1,70 @@
+
+.seccion_principal img{
+     width: 400px;
+     height: 400px;
+     object-fit: cover;                      
+}
+
+ .fondo1{
+  
+    flex-wrap: wrap; 
+    width: 1310px;
+} 
+
+.fondo1 img{
+    align-items: center;
+    width: 1310px;
+ 
+}
+@media only screen and (max-width: 768px) {
+    .fondo1 img {
+        background-color: #094;
+        height: 368px;
+        width: 768px;
+    }
+ 
+    
+}
+
+.seccion_principal{   
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:250px 250px 250px;
+    grid-template-rows:230px 230px 230px;   
+}
+
+ .seccion1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+
+}
+ .seccion2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    
+    text-align: center;
+    
+}
+ .seccion3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+    
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+} 
+ .seccion4{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.seccion0{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    margin: auto;
+}

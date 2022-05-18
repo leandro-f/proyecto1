@@ -1,0 +1,84 @@
+.contacto{  
+    background: #222;
+    display: flex;
+    justify-content: center;
+    margin: 55px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border: 10px solid #000;
+    outline: 3px solid #1b6;
+   /*   max-width: 1000px; todavia no me decido como dejarlo */
+    margin: 50px auto;
+    flex-grow: 1;
+}
+.contacto_texto{
+    color: white;
+    display: inline-block;
+    width: 450px;
+    display: flex;
+    display: inline-block;
+    
+}
+
+.contacto_texto p{
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.contacto_texto h1{
+    text-align: center;
+    
+}
+.contacto_formulario{
+    background-color: rgba(34, 34, 34, 0.505);
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 50px;
+    border: 3px solid #1c7;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.form{
+    display: flex;
+    min-width: 340px;
+    flex: 1;
+    text-align:center;
+    padding: 30px;
+    order: 5;
+    flex-wrap: wrap;
+    display: inline-block;
+    
+    
+}
+.form_input{
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 3px solid #1c7;
+    background-color: rgba(0, 0, 0, 0.617);
+    color: azure;
+    
+}
+.form_input:focus{
+    background:  linear-gradient( to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #5f9;
+    
+}
+.form textarea{
+    min-height: 150px;
+    resize: none;
+}
+.form input[type="submit"]:hover{    /* ACA QUISE PRACTICAR SELECCIONAR POR ATRIBUTO */
+    background-color: #094;
+    border-bottom: none;
+    padding: 12px;
+    transition: scale(8);
+    
+} 

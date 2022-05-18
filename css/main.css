@@ -97,3 +97,239 @@ a {
 .seccion img {
   display: flex;
   flex-wrap: wrap; }
+
+/* ESTILSO DE LETRA */
+.estilos1 {
+  font-size: 70px;
+  color: red;
+  display: flex;
+  flex-wrap: wrap; }
+
+.estilos2 {
+  font-size: 40px;
+  color: #d53434; }
+
+.estilos3 {
+  font-size: 30px; }
+
+.estilos_contacto {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.875); }
+
+.estilos4 {
+  font-size: 30px; }
+
+.contenedor {
+  width: 90%;
+  margin: 5px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "header header" "contenido aside"; }
+
+.header {
+  padding: 20px;
+  border-radius: 4px;
+  grid-area: header;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.contenido {
+  grid-area: "contenido"; }
+
+.aside {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: "aside"; }
+
+/*  LISTO PARA MERGEAR */
+.aside img {
+  transform: skew(-10deg);
+  display: flex;
+  flex-wrap: wrap; }
+
+@media only screen and (max-width: 768px) {
+  .aside img {
+    display: none; }
+  .estilos1 {
+    font-size: 40px; } }
+
+.contenedor_fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.cardsfotos__texto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.cardsfotos img {
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000; }
+
+.garantias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.garantias_sub img {
+  width: 200px; }
+
+.garantias_texto {
+  font-size: 40px; }
+
+.bloque_cards {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.card {
+  background-color: rgba(245, 0, 0, 0.406); }
+
+.contenedor_mapa {
+  display: flex;
+  flex-wrap: wrap; }
+
+.accordion {
+  background-color: #094; }
+
+.contacto {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  margin: 55px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  border: 10px solid #000;
+  outline: 3px solid #1b6;
+  /*   max-width: 1000px; todavia no me decido como dejarlo */
+  margin: 50px auto;
+  flex-grow: 1; }
+
+.contacto_texto {
+  color: white;
+  display: inline-block;
+  width: 450px;
+  display: flex;
+  display: inline-block; }
+
+.contacto_texto p {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 20px; }
+
+.contacto_texto h1 {
+  text-align: center; }
+
+.contacto_formulario {
+  background-color: rgba(34, 34, 34, 0.505);
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 50px;
+  border: 3px solid #1c7;
+  display: flex;
+  flex-direction: column;
+  color: white; }
+
+.form {
+  display: flex;
+  min-width: 340px;
+  flex: 1;
+  text-align: center;
+  padding: 30px;
+  order: 5;
+  flex-wrap: wrap;
+  display: inline-block; }
+
+.form_input {
+  width: 100%;
+  padding: 7px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 3px solid #1c7;
+  background-color: rgba(0, 0, 0, 0.617);
+  color: azure; }
+
+.form_input:focus {
+  background: linear-gradient(to bottom, transparent, #222);
+  outline: none;
+  border-bottom: 3px solid #5f9; }
+
+.form textarea {
+  min-height: 150px;
+  resize: none; }
+
+.form input[type="submit"]:hover {
+  /* ACA QUISE PRACTICAR SELECCIONAR POR ATRIBUTO */
+  background-color: #094;
+  border-bottom: none;
+  padding: 12px;
+  transition: scale(8); }
+
+.seccion_principal img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; }
+
+.fondo1 {
+  flex-wrap: wrap;
+  width: 1310px; }
+
+.fondo1 img {
+  align-items: center;
+  width: 1310px; }
+
+@media only screen and (max-width: 768px) {
+  .fondo1 img {
+    background-color: #094;
+    height: 368px;
+    width: 768px; } }
+
+.seccion_principal {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 230px 230px 230px; }
+
+.seccion1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center; }
+
+.seccion2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: center; }
+
+.seccion3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+
+.seccion4 {
+  grid-column-start: 3;
+  grid-column-end: 5; }
+
+.seccion0 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: auto; }
