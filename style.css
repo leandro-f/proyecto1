@@ -17,6 +17,7 @@
 
 
 a{
+    
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-style: italic;
@@ -28,7 +29,8 @@ a{
    
 }
 .navbar-collapse{
-    justify-content: center;  
+    justify-content: center; 
+    
     
 }
 .nav-link{
@@ -36,6 +38,7 @@ a{
     color: rgb(5, 255, 118);   
     border: solid 3px rgb(110, 110, 110);
     margin: 20px;
+    
 }
 
 .barra {
