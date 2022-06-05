@@ -15,7 +15,10 @@
    
 }
 
- 
+.botton{
+    border: solid 3px;
+    
+} 
 
  .nav_booststrap{
     background-image: linear-gradient(to bottom, black, rgb(226, 39, 39));  
@@ -91,12 +94,12 @@
 
 
 .header{
-    padding: 20px;
-    border-radius: 4px;
+    padding: 2px;
     grid-area: header;
-    margin: auto;
+    margin: 1px;
     display: flex;
     flex-wrap: wrap;
+    font-size: 1px;
 }
 
 .contenido{
