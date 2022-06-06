@@ -17,7 +17,7 @@
 
 .botton{
     border: solid 3px;
-    
+
 } 
 
  .nav_booststrap{
@@ -182,79 +182,73 @@
 
                    /* PAGINA DE SERVICIO */
 
-.seccion_principal img{
-     width: 400px;
-     height: 400px;
-     object-fit: cover;                      
-}
-
- .fondo1{
-  
-    flex-wrap: wrap; 
-    width: 1310px;
-} 
-
 .fondo1 img{
-    align-items: center;
-    width: 1310px;
- 
-}
-@media only screen and (max-width: 768px) {
-    .fondo1 img {
-        background-color: #094;
-        height: 368px;
-        width: 768px;
-    }
- 
-    
-}
-
-.seccion_principal{   
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
+    width: 100%;
+    height: 100%;
+}     
+.seccion_principal{
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns:250px 250px 250px;
-    grid-template-rows:230px 230px 230px;   
-}
-
- .seccion1{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    text-align: center;
-
-}
- .seccion2 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    
-    text-align: center;
-    
-}
- .seccion3{
-    grid-column-start: 1;
-    grid-column-end: 3;
-  
-    
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
+    grid-template-areas: 
+    "seccion0 seccion0"
+    "seccion1 seccion2"
+    "seccion3 seccion4";
+    margin: 18px;
 } 
- .seccion4{
-    grid-column-start: 3;
-    grid-column-end: 5;
-}
 .seccion0{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    
-    margin: auto;
+    grid-area: seccion0;
 }
+.seccion0 p{
+    display: flex;
+    justify-content: center;
+}
+.seccion1{
+    grid-area: seccion1;
+}
+.seccion2{
+    grid-area: seccion2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 130px;
+    margin-bottom: 140px;
+}
+.seccion2 img{
+    width: 650px;
+  
+ }
 
-
-
-
+.seccion3{
+    grid-area: seccion3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.seccion3 img{
+    height: 430px;
+    width: 390px;
+}
+.seccion4{
+    grid-area: seccion4;
+}
+@media only screen and (max-width:320px) {
+    .seccion2{
+        display: none;
+    }
+    .seccion_principal{
+        display: grid;
+        grid-template-areas: 
+        "seccion0 "
+        "seccion1 "
+        "seccion3 "
+        "seccion4";
+        margin: 0px;
+    } 
+    .seccion3 img{
+        height: 100%;
+        width: 100%;
+    }
+}
 
                 /* preguntas frecuentes */
 
@@ -263,90 +257,48 @@
 }
 
                 /* PAGINA DE CONTACTO */
-.contacto{  
-    background: #222;
-    display: flex;
-    justify-content: center;
-    margin: 55px;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-    border: 10px solid #000;
-    outline: 3px solid #1b6;
-   /*   max-width: 1000px; todavia no me decido como dejarlo */
-    margin: 50px auto;
-    flex-grow: 1;
+.caja0{
+   max-width: 1170px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1,5em; 
 }
-.contacto_texto{
-    color: white;
-    display: inline-block;
-    width: 450px;
-    display: flex;
-    display: inline-block;
-    
+.contacto_form{
+    background-color: #736969;
+}
+.contacto_form form p{
+    margin: 0;
+    padding: 1em;
+    d
 }
 
-.contacto_texto p{
-    display: inline-block;
-    flex-wrap: wrap;
-    padding: 20px;
-    
-}
-.contacto_texto h1{
-    text-align: center;
-    
-}
-.contacto_formulario{
-    background-color: rgba(34, 34, 34, 0.505);
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 50px;
-    border: 3px solid #1c7;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    
-}
-.form{
-    display: flex;
-    min-width: 340px;
-    flex: 1;
-    text-align:center;
-    padding: 30px;
-    order: 5;
-    flex-wrap: wrap;
-    display: inline-block;
-    
-    
-}
-.form_input{
+.contacto_form form button,
+.contacto_form form input,
+.contacto_form form textarea{
     width: 100%;
-    padding: 7px;
-    margin: 10px 0;
+    padding: .7em;
     border: none;
-    border-bottom: 3px solid #1c7;
-    background-color: rgba(0, 0, 0, 0.617);
-    color: azure;
-    
+    background-color: none;
+    border-bottom: 3px solid rgba(0, 255, 85, 0.975);
+    outline: 0;
 }
-.form_input:focus{
-    background:  linear-gradient( to bottom, transparent, #222);
-    outline: none;
-    border-bottom: 3px solid #5f9;
-    
+.contacto_form form button{
+    background-color: #15fc00a3;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
 }
-.form textarea{
-    min-height: 150px;
-    resize: none;
+.titulo1{
+    text-align: center;
+    font-size: 3rem;
 }
-.form input[type="submit"]:hover{    /* ACA QUISE PRACTICAR SELECCIONAR POR ATRIBUTO */
-    background-color: #094;
-    border-bottom: none;
-    padding: 12px;
-    transition: scale(8);
-    
-} 
+.caja1{
+    box-shadow: 0 0 20px 0 rgba(6, 244, 14, 0.648);
+    padding: 1em;
+}
+.contacto_info{
+    background-color: #276a3a29;
+}
                         /* como llegar */
 
  .contenedor_mapa{
